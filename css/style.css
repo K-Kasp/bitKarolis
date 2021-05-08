@@ -31,14 +31,14 @@ img {
     border-radius: 50%;
 }
 
-
 hr {
-    border-top: solid greenyellow;
-    border-left: solid greenyellow;
-    border-bottom: solid greenyellow;
-    border-right: solid greenyellow;
+    border-top: solid black;
+    border-left: solid black;
+    border-bottom: solid black;
+    border-right: solid black;
     height: 450px;
     width: 450px;
+    box-shadow: 20px 20px 20px 10px #333;
     
 }
 .login {
