@@ -24,8 +24,26 @@
 }
 
 img {
-    width: 120px;
-    left: 60px;
-    top: 13px;
+    width: 100px;
+    left: 580px;
+    top: 25px;
     position: absolute;
+    border-radius: 50%;
+    
+    
 }
+hr {
+    border-top: solid greenyellow;
+    border-left: solid greenyellow;
+    border-bottom: solid greenyellow;
+    border-right: solid greenyellow;
+    height: 450px;
+    width: 450px;
+    
+}
+.login {
+    left: 47%;
+    top: 350px;
+    position:absolute;
+}
+
