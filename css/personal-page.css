@@ -1,0 +1,60 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.this-is-me {
+    padding: 0px;
+    background-color: greenyellow;
+    width: 50%;
+    margin: 35px;
+}
+.description {
+    max-width: 52%  ;
+    width: 50%;
+    color:#777;
+    
+    border:none;
+    
+}
+.inline {
+    display: inline;
+}
+.this-is-me-text {
+    padding-top:20px;
+}
+.my-name {
+    font-size: 50px;
+    font-weight: bold;
+   
+    padding: 0;
+}
+.button1 {
+  background:#8490ff;  
+  line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;-webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+   
+}
+
+img {
+    width:25%;
+    margin-bottom:200px;
+}
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+   
+}
