@@ -1,87 +1,74 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
 }
 
 h1 {
-    font-size: 20px;
-    padding:15px;   
+  font-size: 20px;
+  padding: 15px;
 }
 p {
-    color: gray;
+  color: gray;
 }
 
 .flex-container {
-    display:flex;
-    justify-content:space-evenly;
-    flex-wrap:wrap;
-    width:100%;
-    background-color: white;
-    padding:40px;
-    align-items: baseline;
-    padding-bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+  padding: 40px;
+  align-items: baseline;
+  padding-bottom: 0;
+}
 
-    
+.flex-container div {
+  box-shadow: 0 1px 10px 0 rgb(0 0 0 / 100%);
+  margin: 10px;
+  width: 300px;
+}
+
+.flex-container div p {
+  padding: 0px 0px 15px 15px;
+}
+
+.flex-container div .photo {
+  height: auto;
+  width: 100%;
+  padding: 5px;
+}
+
+.download {
+  margin-right: 20px;
+  margin-top: 15px;
+  float: right;
+  width: 35px;
+  height: auto;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: pink;
+  margin-left: 43%;
+  padding: 20px;
+  transition: 2s ease;
+}
+
+@media only screen and (max-width: 600px) {
+  button {
+    margin-left: 90px;
+    background: #db7093;
+    transition: 2s ease;
+    -webkit-transition: 2s ease;
   }
+}
 
-  .flex-container div  {
-    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 100%);
-    margin: 10px;
-    width: 300px;
-    
-
-  }
-
-  .flex-container div p {
-      padding: 0px 0px 15px 15px;
-  }
-
-  .flex-container div .photo {
-      height: auto;
-      width: 100%;
-      padding:5px;
-      ;
-  }
-
-.download  {
-
-    margin-right: 20px;
-    margin-top: 15px;
-    float: right;
-      width: 35px;
-      height: auto;
-
-  }
-
-    button {
-      border-radius: 5px;
-      border: none;
-      outline: none;
-      background-color: pink; 
-      margin-left: 43%;
-      padding: 20px;
-      transition: 2s ease;
-      
-     }
-
-     @media only screen and (max-width: 600px) {
-        button {
-            margin-left :90px; 
-            background: #DB7093;
-          transition: 2s ease;  
-          -webkit-transition: 2s ease;
-          
-        }
-      }
-
-      button:hover  {
-          background: #DB7093;
-          transition: 2s ease;  
-          -webkit-transition: 2s ease;
-            }
-
-           
-
-  
+button:hover {
+  background: #db7093;
+  transition: 2s ease;
+  -webkit-transition: 2s ease;
+}
