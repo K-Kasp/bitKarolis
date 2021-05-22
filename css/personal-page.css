@@ -1,9 +1,15 @@
+
 * {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 
 .container {
     width: 1240px;
@@ -12,53 +18,110 @@
 }
 
 .this-is-me {
+ 
+    background-color: whitesmoke;
   padding: 0px;
-  background-color: greenyellow;
   width: 50%;
-  margin: 35px;
+  margin:45px;
+  padding-bottom:60px;
 }
 .description {
-  max-width: 52%;
-  width: 50%;
-  color: #777;
-
-  border: none;
+    max-width: 52%  ;
+    width: 50%;
+    color:#777;
+    
+    border:none;
 }
 .inline {
-  display: inline;
+    display: inline;
+  
 }
 .this-is-me-text {
-  padding-top: 20px;
+    padding-top:20px;
+    margin-bottom: 20px;
+  
 }
 .my-name {
+    
+   
+    padding: 0;
   font-size: 50px;
   font-weight: bold;
 
-  padding: 0;
+ ;
+}
+.button1:hover  {
+  transition: 2s;
+  background-color: purple;
 }
 .button1 {
-  background: #8490ff;
+  
+  background-color: purple;
+  background:#8490ff;  
+ margin-top:15px;
+ border-radius:7px ;
   line-height: 42px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border: none;
-  color: #fff;
-  display: inline-block;
-  font-weight: 500;
-  position: relative;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;-webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+   
+   
 }
 
 img {
-  width: 25%;
-  margin-bottom: 200px;
+    background-color: whitesmoke;
+   padding: 0;
+   margin: 0; 
+    max-width: 30%; 
+    
+  width: 35%;
+
 }
 .flex-container {
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
+    padding: 20px;
+   
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+    
+   
 }
+.topnav {
+  
+  padding-right:80px ;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    font-size: 14px;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color:purple;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+  
+    color: blue;
+  }
+
+
+
